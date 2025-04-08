@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.vraper{
+    width: 100%;
+}
+.video_section{  
+height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #323232;
+    border: 1px solid floralwhite;
+}
+.video{
+    justify-content: center; 
+    width: 100%;
+    max-width: 1280px;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
