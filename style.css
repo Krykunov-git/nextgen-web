@@ -14,8 +14,94 @@ h3 ,h4 ,p{margin: 0px;}
   padding-left: 312px;
   padding-right: 312px;
 }  
+/* HEADER */
+.header {
+  display: flex;
+  width: 100%;
+}
 
+.header-item {
+  padding: 16px 20px;
+  font-size: 13.83px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
 
+.header-item:first-of-type {
+  background-color: #323232;
+  flex: 1 1 88.8%;
+  text-align: end;
+}
+
+.header-item:last-of-type {
+  background-color: #FF3C00;
+  flex: 1 1 11.2%;
+  cursor: pointer;
+}
+
+/* MAIN */
+  
+.main {
+  background-color: gray;
+  background-image: url(./Imj/bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+ 
+.main-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 900; 
+  line-height: 80px;
+  font-size: 54px;
+  color: #212529;
+} 
+.main-text {
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  width: 69%;
+  font-weight: 100;
+  font-size: 14px;
+  color: #212529;
+}  
+.main-text-container {
+  padding-top: 36.18px;
+  background-image: url(./Imj/logo.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+
+  background-size: contain;
+} 
+
+.main-text:first-of-type {
+  margin-top: 0;
+}
+
+.main-text:last-of-type {
+  margin-bottom: 52px;
+}
+
+.main-button {
+  background-color: #323232;
+  color: #fff;
+  padding: 22px 36px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.banner-main {
+  height: 326px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+/* VIDEO */
 .video_section{  
 height: 955px;
     display: flex;
@@ -32,6 +118,7 @@ height: 955px;
     aspect-ratio: 16 / 9;
     border: none;
 }
+
 
 .video_text{
     display: flex;
@@ -89,90 +176,28 @@ height: 955px;
   margin-bottom: 50px;
 }
 
-   .header {
-    display: flex;
-    width: 100%;
-  }
-  
-  .header-item {
-    padding: 16px 20px;
-    font-size: 13.83px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-  }
-  
-  .header-item:first-of-type {
-    background-color: #323232;
-    flex: 1 1 88.8%;
-    text-align: end;
-  }
-  
-  .header-item:last-of-type {
-    background-color: #FF3C00;
-    flex: 1 1 11.2%;
-    cursor: pointer;
-  }
    
-  /* MAIN */
-  
-   .main {
-    background-color: gray;
-    background-image: url(./Imj/bg-main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 210px;
-    padding-bottom: 210px;
-  }
-   
-  .main-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 900; 
-    line-height: 80px;
-    font-size: 54px;
-    color: #212529;
-  } 
-  .main-text {
-    font-family: "Noto Sans Warang Citi", sans-serif;
-    width: 69%;
-    font-weight: 100;
-    font-size: 14px;
-    color: #212529;
-  }  
-.main-text-container {
-    padding-top: 36.18px;
-    background-image: url(./Imj/logo.png);
-    background-position: center right;
-    background-repeat: no-repeat;
-  
-    background-size: contain;
-  } 
-  
-  .main-text:first-of-type {
-    margin-top: 0;
-  }
-  
-  .main-text:last-of-type {
-    margin-bottom: 52px;
-  }
-  
-  .main-button {
-    background-color: #323232;
-    color: #fff;
-    padding: 22px 36px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  
-  .banner-main {
-    height: 326px;
-    position: relative;
+   /* Partners*/
+   .Partners{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-  } 
+    flex-direction: column;
+    border-bottom: 2px solid #EAEAEA;
+   
+   }
+
+   .Partners_title{
+    margin-top: 160px;
+font-size: 67.68px;
+font-weight: 900;
+   }
   
+  .Partners_logo{
+    margin-top: 68px;
+    width: 100%;
+  max-width: 420px;
+  height: auto;
+  
+
+  }
  
