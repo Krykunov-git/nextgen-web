@@ -182,7 +182,8 @@ height: 955px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-bottom: 2px solid #EAEAEA;
+    border: 12px solid #EAEAEA;
+    gap: 20px;
    
    }
 
@@ -197,7 +198,26 @@ font-weight: 900;
     width: 100%;
   max-width: 420px;
   height: auto;
+  margin-bottom: 114px;
   
 
   }
- 
+ .partner_logs{
+  display: flex;
+  flex-wrap: nowrap;
+gap: 92px;
+ }
+
+ .partner_logs:last-child{
+  margin-bottom: 176px;
+ }
+
+ .Pointer{
+  width: 100%;
+  
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+
+border-bottom: 2px solid #EAEAEA;
+ }
