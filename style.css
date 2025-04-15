@@ -112,9 +112,17 @@ h3 ,h4 ,p{margin: 0px;}
 .tie_box_text{
   width: 100%;
   margin-top: 277.7px;
-  margin-right: 40px;
-  padding-left: 48px;
+  margin-right: 90px;
+ 
   padding-right: 40px;
+}
+.tie_box_text_second{
+  
+  width: 100%;
+  margin-top: 155px;
+  margin-left: 40px;
+  padding-left: 40px;
+  
 }
 .tie_title_first{
   font-size: 58.01px;
@@ -134,11 +142,16 @@ h3 ,h4 ,p{margin: 0px;}
   line-height: 30px;
   margin-bottom: 26px;
 }
+
+
 .tie_img{
   width: 100%;
+  margin-top: 90px;
+  margin-bottom: 176px;
 }
 .tie_img_first{
   margin-top: 160px;
+  margin-bottom: 40px;
 }
 /* VIDEO */
 .video_section{  
