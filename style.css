@@ -300,42 +300,7 @@ h3 ,h4,h5,p{margin: 0px;}
   text-decoration-thickness: 0%;
   color: #212529;
 }
-  /* ATTENG  HOTSAUSE */
-  .attend_Hotsauce{
-  padding-top: 160px;
- background-color: #EAEAEA;
  
-
-  }
-.attend_Hotsauce_title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-.attend_Hotsauce_title_text{
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 60px;
-}
-.attend_Hotsauce_punkt{
-  display: flex;
-}
-.lol1{
-  
-  max-width: 50%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  
-}
-.lol2{
-  max-width: 100%;
-  height: auto;
-  display: block;
-
-}
 /* TIE */
 .tie{
   background-color:#323232 ;
@@ -389,6 +354,42 @@ h3 ,h4,h5,p{margin: 0px;}
   margin-top: 160px;
   margin-bottom: 40px;
 }
+ /* ATTENG  HOTSAUSE */
+ .attend_Hotsauce{
+  padding-top: 160px;
+ background-color: #EAEAEA;
+ 
+
+  }
+.attend_Hotsauce_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.attend_Hotsauce_title_text{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 60px;
+}
+.attend_Hotsauce_punkt{
+  display: flex;
+}
+.lol1{
+  
+  max-width: 50%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  
+}
+.lol2{
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
 /* VIDEO */
 .video_section{  
 height: 955px;
@@ -405,7 +406,6 @@ height: 955px;
   height: auto;
   aspect-ratio: 16/9;
   max-width: 50%;
-  
   display: block;
   object-fit: contain;
 }
