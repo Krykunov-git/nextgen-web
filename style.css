@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-h3 ,h4 ,p{margin: 0px;}
+h3 ,h4,h5,p{margin: 0px;}
 
 .wrapper {
   font-family: "Inter", sans-serif;
@@ -299,6 +299,25 @@ h3 ,h4 ,p{margin: 0px;}
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   color: #212529;
+}
+  /* ATTENG  HOTSAUSE */
+  .attend_Hotsauce{
+  padding-top: 160px;
+ background-color: #EAEAEA;
+ 
+
+  }
+.attend_Hotsauce_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.attend_Hotsauce_title_text{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 60px;
 }
 /* TIE */
 .tie{
