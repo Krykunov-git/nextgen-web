@@ -319,6 +319,9 @@ h3 ,h4,h5,p{margin: 0px;}
   font-size: 30px;
   line-height: 60px;
 }
+.attend_Hotsauce_punkt{
+  display: flex;
+}
 /* TIE */
 .tie{
   background-color:#323232 ;
