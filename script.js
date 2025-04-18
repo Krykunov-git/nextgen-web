@@ -1,8 +1,8 @@
 
 /* Survey*/
 
-const button = document.querySelector('.lol .survey_button');
+const button = document.querySelector('.survey_box .survey_button');
 
 button.addEventListener('click', () => {
-  button.closest('.lol').classList.toggle('active');
+  button.closest('.survey_box').classList.toggle('active');
 });
