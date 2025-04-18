@@ -5,15 +5,29 @@ h3 ,h4 ,p{margin: 0px;}
 
 .wrapper {
   font-family: "Inter", sans-serif;
-   font-family: "Noto Sans Warang Citi", sans-serif; 
+  font-family: "Noto Sans Warang Citi", sans-serif;
   width: 100%;
-  
 }
 
 .container {
   padding-left: 312px;
   padding-right: 312px;
-}  
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
 /* HEADER */
 .header {
   display: flex;
@@ -100,6 +114,192 @@ h3 ,h4 ,p{margin: 0px;}
   justify-content: space-between;
   align-items: center;
 } 
+/* Banner-main */
+
+.banner-main {
+  height: 326px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 47px 80px;
+  background-image: url(./Imj/cta-purple-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.banner-content h2 {
+  margin-top: 0;
+}
+
+.banner-content > * {
+  flex: 1 1 50%;
+}
+
+.banner-content .main-button {
+  width: 60%;
+}
+
+.banner-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-title-container h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 47px;
+  margin-bottom: 0;
+}
+
+
+.banner-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.banner-button-container button {
+  font-size: 22.5px;
+  text-transform: uppercase;
+  max-width: 265px;
+  font-weight: 900;
+}
+
+@media (max-width: 1440px) {
+  .banner-title-container h2 {
+    font-size: 27px;
+  }
+
+  .banner-button-container button {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-content {
+    padding: 24px 40px;
+  }
+  .banner-title-container h2 {
+    font-size: 25px;
+  }
+  .banner-button-container button {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner-button-container button {
+    padding: 18px 28px;
+    font-size: 12px;
+  }  
+}
+
+.banner-main-title {
+  color: #212529;
+  text-transform: uppercase;
+  font-size: 58px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* GALERY CONTAINER */
+.galery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #EAEAEA;
+  gap: 16px;
+  padding-top: 80px;
+  padding-bottom: 179px;
+}
+
+
+
+@media (max-width: 1440px) {
+  .galery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .column {
+    gap: 48px;
+  }
+}
+
+
+.column:nth-child(2) {
+  padding-top: 155px;
+}
+
+.column:nth-child(3) {
+  padding-top: 230px;
+}
+
+@media (max-width: 1440px) {
+  .column:nth-child(3) {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .image-container {
+    transform: scale(0.85);
+  }
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#children-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 31px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.children-text {
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  color: #212529;
+  text-align: center;
+  font-weight: 500;
+  font-size: 21.75px;
+  line-height: 31.2px;
+}
+
+#children-text {
+  color: #FF3C00;
+}
+
+#children-link {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  font-weight: 800;
+  font-size: 14.41px; 
+  line-height: 22.5px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  color: #212529;
+}
 /* TIE */
 .tie{
   background-color:#323232 ;
@@ -163,13 +363,15 @@ height: 955px;
     background-color: #323232;
     
 }
-.video{
-    
-    width: 100%;
-    max-width: 1280px;
-    aspect-ratio: 16 / 9;
-    border: none;
+.video {
+  max-width: 1272px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
+
+
+
 
 
 .video_text{
