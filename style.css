@@ -322,6 +322,20 @@ h3 ,h4,h5,p{margin: 0px;}
 .attend_Hotsauce_punkt{
   display: flex;
 }
+.lol1{
+  
+  max-width: 50%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  
+}
+.lol2{
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
 /* TIE */
 .tie{
   background-color:#323232 ;
@@ -390,6 +404,10 @@ height: 955px;
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
+  max-width: 50%;
+  
+  display: block;
+  object-fit: contain;
 }
 
 
